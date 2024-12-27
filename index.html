@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Արեւմտահայերէն Endgame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="/armenianendgame">Game</a>
+        <a href="/armenianendgame/words">Leaderboard</a>
+    </nav>
+    <div class="faq">
+        <h1>Յաճախակի Հարցուող Հարցումներ</h1>
+        <div class="faq-item">
+            <h2>Ի՞նչ է "Endgame"ը</h2>
+            <p class="answer">Endgame-ը խաղ մըն է, որ ինձ սորվեցուցած է իմ Անգլերէնի լեզուի ուսուցիչը:</p>
+        </div>
+        <div class="faq-item">
+            <h2>Ինչպէ՞ս կարելի է խաղալ</h2>
+            <p class="answer">Խաղը բավական պարզ է: Կայքը ձեզ համար բառ կը ստեղծէ, եւ դուք պետք է շարունակեք բառով մը, որ կը սկսի այն տառով, որ կը վերջանայ կայքին ստեղծած բառը: Այնուհետեւ կայքը կը խաղայ ձեզ հետ եւ կու տայ ձեզ բառ մը, որ կը սկսի այն տառով, որ կ'աւարտի ձեր տուած բառը:</p>
+        </div>
+        <div class="faq-item">
+            <h2>Ինչ ե՞ն այս բառերը</h2>
+            <p class="answer">Այո, այս բառերը կարելի են ըլլալ դժուար եւ անծանոթ: Այդ է, որովհետեւ բառերու ցանկը կը պարունակուի ավելի քան 40,000 բառ:</p>
+        </div>
+    </div>
+    <!-- Game Container -->
+    <div class="container">
+        <h1>Արեւմտահայերէն Endgame</h1>
+        <p id="generated-word">Ստեղծուած բառն է: </p>
+        <p id="lives">Կեանք: 3</p>
+        <form id="game-form">
+            <input type="text" id="user-word" placeholder="Enter your word">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+        <p id="history">Գործածած բառեր: </p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

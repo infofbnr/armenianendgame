@@ -210,3 +210,43 @@ button:hover {
     width: 300px;
     text-align: center;
 }
+#letters {
+    display: flex;
+    flex-wrap: wrap; /* Wrap buttons to a new line if necessary */
+    justify-content: center; /* Center align the buttons */
+    gap: 10px; /* Add space between buttons */
+    margin-top: 20px; /* Add some space above the buttons */
+}
+
+
+.letter-button {
+    background-color: #646cda; /* Stylish purple color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 15px; /* Add padding for better size */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.letter-button:hover {
+    background-color: #4b53b6; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.letter-button:active {
+    transform: scale(1); /* Reset scale on click */
+    background-color: #323874; /* Even darker shade on click */
+}
+.button {
+    margin: 60px auto; /* Space between FAQ and container */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
